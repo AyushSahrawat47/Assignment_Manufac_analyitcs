@@ -1,9 +1,9 @@
 import { Table } from "@mantine/core";
-import { TableHead } from "../types/table";
+import { TableHead } from "../../types/table";
 
 interface TableComponentProps<T> {
-  head: TableHead[];
   body: T[][];
+  head: TableHead[];
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

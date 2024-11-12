@@ -90,8 +90,15 @@ const totalCropProduction = (dataSet: Crop[]): TotalCropProduction[] => {
   return totalProdcutionStats;
 }
 
+const getAllCropDataBasedOnYear = (year: number, dataSet: Crop[]): Crop[] => {
+  const data =  dataSet.filter(data => data.year === year);
+  console.log(data);
+  return data;
+}
+
 export {
   cropProductionExtremesData,
   cropAvgYieldAndAreaData,
   totalCropProduction,
+  getAllCropDataBasedOnYear,
 };

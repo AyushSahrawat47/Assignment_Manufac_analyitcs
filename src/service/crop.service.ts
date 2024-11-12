@@ -12,7 +12,7 @@ export default class CropService {
 
       responseJson.map((item) => {
         cropData.push({
-          areaUnderCultivation: item['Area Under Cultivation (UOM:Ha(Hectares))'],
+          areaUnderCultivation: item['Area Under Cultivation (UOM:Ha(Hectares))'] ? item['Area Under Cultivation (UOM:Ha(Hectares))'] : 0,
           country: item.Country,
           cropName: item['Crop Name'],
           cropProduction: item['Crop Production (UOM:t(Tonnes))'] ? item['Crop Production (UOM:t(Tonnes))'] : 0,
