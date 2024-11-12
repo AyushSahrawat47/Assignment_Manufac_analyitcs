@@ -1,7 +1,7 @@
 import { Text } from '@mantine/core'
 import React, { PropsWithChildren } from 'react'
 
-const HighLightTex:React.FC<PropsWithChildren> = ({children}) => {
+const HighLightText:React.FC<PropsWithChildren> = ({children}) => {
   return (
     <Text fw={700} span c="blue" inherit>
       {children}
@@ -9,4 +9,4 @@ const HighLightTex:React.FC<PropsWithChildren> = ({children}) => {
   )
 }
 
-export default HighLightTex;
+export default HighLightText;

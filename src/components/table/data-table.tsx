@@ -1,7 +1,7 @@
 import { Flex } from "@mantine/core";
 import React, { PropsWithChildren } from "react";
 import { TableHead } from "../../types/table";
-import HighLightTex from "../typography/highlight-text";
+import HighLightText from "../typography/highlight-text";
 import TableComponent from "./table";
 
 interface DataTableProps<T> {
@@ -26,7 +26,7 @@ const DataTable: React.FC<PropsWithChildren<DataTableProps<any>>> = ({
       direction="column"
       wrap="nowrap"
     >
-      <HighLightTex>{heading}</HighLightTex>
+      <HighLightText>{heading}</HighLightText>
       {children}
       <TableComponent head={head} body={body} />
     </Flex>
