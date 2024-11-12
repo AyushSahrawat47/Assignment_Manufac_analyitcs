@@ -1,5 +1,5 @@
 # Getting Started
-Boilerplate project for NodeJS, React based projects in TypeScript. This README documents whatever steps are necessary to get your application up and running.
+Manufac-Analytics-Private-Limited-Assignment React based projects in TypeScript. This README documents whatever steps are necessary to get your application up and running.
 
 ## Table of Contents
 - Getting Started
@@ -12,31 +12,26 @@ Boilerplate project for NodeJS, React based projects in TypeScript. This README 
 
 #### How to run (Scripts):
 - Install dependencies - `yarn install`
+- Build Project  - `yarn build`
 - Start Application - `yarn dev`
+- Run Lint - `yarn lint`
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+#### Configuration:
+- No configuration need.
 
 ### Screenshots Or Output:
 
 #### Operation 1
+Yearly crop data with year filter
 
-- ##### Usage
 #### Operation 2
+Total crop production of a perticular crop from 1950 to 2020
+
 #### Operation 3
+Crop with maximum and minmum production in perticular Year
+
 #### Operation 4
+Crop with average yeild and avegarage cultivation area between 1950-2020
 
 ## License
 
