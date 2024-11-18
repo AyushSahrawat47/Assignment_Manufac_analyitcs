@@ -1,19 +1,5 @@
 import { TableHead } from "../types/table";
 
-const TOTAL_CROP_PRODUCTION_TABLE_HEAD:TableHead[] = [
-  new TableHead('cropName', 'Crop Name'),
-  new TableHead('totalCropProduction', 'Total Production')
-];
-
-const CROP_PYEARLY_TABLE_HEAD:TableHead[] = [
-  new TableHead('cropName', 'Crop Name'),
-  new TableHead('country', 'Country'),
-  new TableHead('year', 'Year'),
-  new TableHead('cropProduction', 'Crop Production'),
-  new TableHead('areaUnderCultivation', 'Cultivation Area'),
-  new TableHead('yieldOfCrops', 'Crops Yeild'),
-];
-
 const CROP_PRODUCTION_TABLE_HEAD:TableHead[] = [
   new TableHead('year', 'Year'),
   new TableHead('maximumCropProduction', 'Crop with Maximum Production in that Year'),
@@ -29,6 +15,4 @@ const CROP_AVG_YEILD_AND_AREA_TABLE_HEAD:TableHead[] = [
 export {
   CROP_AVG_YEILD_AND_AREA_TABLE_HEAD,
   CROP_PRODUCTION_TABLE_HEAD,
-  CROP_PYEARLY_TABLE_HEAD,
-  TOTAL_CROP_PRODUCTION_TABLE_HEAD,
 };

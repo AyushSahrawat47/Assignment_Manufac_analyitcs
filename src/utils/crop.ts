@@ -1,6 +1,5 @@
 import { Crop, CropAvg, CropCalStats, CropProduction, TotalCropProduction } from "../types/crop";
 
-// I read carefully of data-set and I found that the data-set is an array of objects, and it is sortred by year.
 
 const findCropProductionExtremes = (year: number, dataset: Crop[]): { maxCrop: string, minCrop: string } => {
   const cropsForYear = dataset.filter(data => data.year === year);
